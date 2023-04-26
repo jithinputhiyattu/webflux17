@@ -8,3 +8,10 @@ Sample java 17 webflux spring boot project.
 
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home/
 export PATH=$JAVA_HOME/bin:$PATH
+
+
+After loading the project in IntelliJ if you are facing  build issue 
+
+please go to :
+https://stackoverflow.com/questions/53869118/importing-to-intellij-error-package-org-springframework-boot-does-not-exist
+
