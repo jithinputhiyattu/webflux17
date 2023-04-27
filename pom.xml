@@ -5,6 +5,7 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>webflux17-app</module>
+		<module>webflux17-adapter</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
