@@ -1,13 +1,18 @@
 package com.dreamblitz.webflux17.app;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
+@EnableAutoConfiguration
 @SpringBootApplication
-public class Webflux17ApplicationMain {
+@ComponentScan(basePackages={"com.dreamblitz.webflux17.*"})
+//@ComponentScan({"com.dreamblitz.webflux17.adapter.controller", "com.dreamblitz.webflux17.adapter.controller.*" })
+public class WebFlux17ApplicationMain {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Webflux17ApplicationMain.class, args);
+		SpringApplication.run(WebFlux17ApplicationMain.class, args);
 	}
 
 }

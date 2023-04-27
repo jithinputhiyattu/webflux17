@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f589025-6fa2-4329-b75e-25ec5450e802" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux17-adapter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-adapter/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webflux17-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux17-app/src/main/java/com/dreamblitz/webflux17/app/WebFlux17ApplicationMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-app/src/main/java/com/dreamblitz/webflux17/app/WebFlux17ApplicationMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +60,7 @@
     <configuration name="WebFlux17" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.dreamblitz.webflux17.app.Webflux17ApplicationMain" />
+      <option name="MAIN_CLASS_NAME" value="com.dreamblitz.webflux17.app.WebFlux17ApplicationMain" />
       <module name="webflux17-app" />
       <method v="2">
         <option name="Make" enabled="true" />

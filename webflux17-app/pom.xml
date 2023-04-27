@@ -10,6 +10,12 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>webflux17-app</artifactId>
     <dependencies>
+
+        <dependency>
+            <groupId>com.dreamblitz</groupId>
+            <artifactId>webflux17-adapter</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-webflux</artifactId>
@@ -33,6 +39,11 @@
             <version>3.5.5</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-oas</artifactId>
+            <version>3.0.0</version>
+        </dependency>
     </dependencies>
 
 
@@ -52,7 +63,7 @@
                             <goal>repackage</goal>
                         </goals>
                         <configuration>
-                            <mainClass>com.dreamblitz.webflux17.app.Webflux17ApplicationMain</mainClass>
+                            <mainClass>com.dreamblitz.webflux17.app.WebFlux17ApplicationMain</mainClass>
                         </configuration>
                     </execution>
                 </executions>
