@@ -26,39 +26,15 @@
 
 	<dependencies>
 
-		<!--
-Module dependency
-
-
-
-		-->
-
 		<dependency>
 			<groupId>com.dreamblitz</groupId>
 			<artifactId>webflux17-app</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-
-
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-webflux</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<optional>true</optional>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>io.projectreactor</groupId>
-			<artifactId>reactor-test</artifactId>
-			<scope>test</scope>
+			<groupId>com.dreamblitz</groupId>
+			<artifactId>webflux17-adapter</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 
