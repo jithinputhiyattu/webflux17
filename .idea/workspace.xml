@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f589025-6fa2-4329-b75e-25ec5450e802" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webflux17-adapter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-adapter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-adapter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-adapter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-app/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-app/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-app/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-app/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-app/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-app/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-app/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/webflux17-app/target/webflux17-app-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-app/target/webflux17-app-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +61,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.InfiniteStreamTest">
     <configuration name="WebFlux17" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -76,6 +71,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InfiniteStreamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webflux-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dreamblitz.webflux17.common.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dreamblitz.webflux17.common.test" />
+      <option name="MAIN_CLASS_NAME" value="com.dreamblitz.webflux17.common.test.InfiniteStreamTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InfiniteStreamTest.shouldReturnSumOf10RandomNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webflux-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dreamblitz.webflux17.common.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dreamblitz.webflux17.common.test" />
+      <option name="MAIN_CLASS_NAME" value="com.dreamblitz.webflux17.common.test.InfiniteStreamTest" />
+      <option name="METHOD_NAME" value="shouldReturnSumOf10RandomNumbers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.InfiniteStreamTest" />
+        <item itemvalue="JUnit.InfiniteStreamTest.shouldReturnSumOf10RandomNumbers" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -98,5 +130,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/webflux-common/src/test/java/com/dreamblitz/webflux17/common/test/InfiniteStreamTest.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/webflux-common/src/test/java/com/dreamblitz/webflux17/common/test/InfiniteStreamTest.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
