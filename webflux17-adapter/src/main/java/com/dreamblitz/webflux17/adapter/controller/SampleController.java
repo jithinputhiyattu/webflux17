@@ -1,5 +1,7 @@
 package com.dreamblitz.webflux17.adapter.controller;
 
+import com.dreamblitz.webflux17.service.SampleService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,13 +13,13 @@ import reactor.core.publisher.Mono;
 @RequestMapping(path = "/web-flux17")
 public class SampleController {
 
-    public SampleController() {
-        System.out.println("\n\nSampleController .....\n\n");
-    }
+    @Autowired
+    private SampleService sampleService;
 
     @RequestMapping(value = "/sample", method = RequestMethod.GET)
     public Mono<ResponseEntity<String>> getDistributionsStatus() {
-        return Mono.just(new ResponseEntity<>("Working...", HttpStatus.OK));
+        return sampleService.sampleResponse()
+                .map( text -> new ResponseEntity<>(text + " Jai", HttpStatus.OK));
     }
 
 }

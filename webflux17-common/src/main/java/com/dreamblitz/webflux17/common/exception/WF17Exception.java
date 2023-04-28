@@ -1,7 +1,9 @@
 package com.dreamblitz.webflux17.common.exception;
 
+import lombok.Getter;
 import org.springframework.http.HttpStatus;
 
+@Getter
 public abstract class WF17Exception extends Exception {
 
     private final HttpStatus httpErrorCode;
@@ -12,4 +14,5 @@ public abstract class WF17Exception extends Exception {
         this.httpErrorCode = httpErrorCode;
         this.errors = errors;
     }
+
 }

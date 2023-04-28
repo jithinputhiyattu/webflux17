@@ -5,28 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f589025-6fa2-4329-b75e-25ec5450e802" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/webflux17-common/src/main/java/com/dreamblitz/webflux17/common/exception/WF17Exception.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webflux17-domain/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webflux17-infra/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webflux17-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/webflux17/service/IService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webflux17-service/src/main/java/com/dreamblitz/webflux17/service/SampleService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux-common/src/main/java/com/dreamblitz/webflux17/common/InfiniteStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-common/src/main/java/com/dreamblitz/webflux17/common/InfiniteStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux-common/src/test/java/com/dreamblitz/webflux17/common/test/InfiniteStreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-common/src/test/java/com/dreamblitz/webflux17/common/test/InfiniteStreamTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux-common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-common/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux-common/target/surefire-reports/2023-04-28T12-41-13_980.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux-common/target/surefire-reports/TEST-com.dreamblitz.webflux17.common.test.InfiniteStreamTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-common/target/surefire-reports/TEST-com.dreamblitz.webflux17.common.test.InfiniteStreamTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux-common/target/surefire-reports/com.dreamblitz.webflux17.common.test.InfiniteStreamTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-common/target/surefire-reports/com.dreamblitz.webflux17.common.test.InfiniteStreamTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-app/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-app/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webflux17-app/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-app/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux17-adapter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-adapter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux17-adapter/src/main/java/com/dreamblitz/webflux17/adapter/controller/SampleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-adapter/src/main/java/com/dreamblitz/webflux17/adapter/controller/SampleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux17-adapter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-adapter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux17-adapter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-adapter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webflux17-app/target/webflux17-app-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-app/target/webflux17-app-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux17-common/src/main/java/com/dreamblitz/webflux17/common/exception/WF17ErrorDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-common/src/main/java/com/dreamblitz/webflux17/common/exception/WF17ErrorDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux17-common/src/main/java/com/dreamblitz/webflux17/common/exception/WF17Exception.java" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-common/src/main/java/com/dreamblitz/webflux17/common/exception/WF17Exception.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux17-common/src/main/java/com/dreamblitz/webflux17/common/exception/WF17InvalidInputException.java" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-common/src/main/java/com/dreamblitz/webflux17/common/exception/WF17InvalidInputException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux17-common/target/surefire-reports/2023-04-28T14-25-29_824.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux17-common/target/surefire-reports/TEST-com.dreamblitz.webflux17.common.test.InfiniteStreamTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-common/target/surefire-reports/TEST-com.dreamblitz.webflux17.common.test.InfiniteStreamTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux17-common/target/surefire-reports/com.dreamblitz.webflux17.common.test.InfiniteStreamTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-common/target/surefire-reports/com.dreamblitz.webflux17.common.test.InfiniteStreamTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux17-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux17-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/webflux17-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -77,7 +72,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.InfiniteStreamTest">
+  <component name="RunManager" selected="Application.WebFlux17">
     <configuration name="WebFlux17" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -159,6 +154,21 @@
           <url>file://$PROJECT_DIR$/webflux17-common/src/test/java/com/dreamblitz/webflux17/common/test/InfiniteStreamTest.java</url>
           <line>25</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/webflux17-adapter/src/main/java/com/dreamblitz/webflux17/adapter/controller/GenericExceptionController.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/webflux17-adapter/src/main/java/com/dreamblitz/webflux17/adapter/controller/GenericExceptionController.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/webflux17-adapter/src/main/java/com/dreamblitz/webflux17/adapter/controller/GenericExceptionController.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
