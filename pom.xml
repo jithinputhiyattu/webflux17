@@ -6,7 +6,10 @@
 	<modules>
 		<module>webflux17-app</module>
 		<module>webflux17-adapter</module>
-		<module>webflux-common</module>
+		<module>webflux17-common</module>
+		<module>webflux17-infra</module>
+		<module>webflux17-service</module>
+		<module>webflux17-domain</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
