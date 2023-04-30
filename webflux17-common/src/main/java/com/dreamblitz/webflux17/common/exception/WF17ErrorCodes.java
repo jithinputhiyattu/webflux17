@@ -7,4 +7,5 @@ public class WF17ErrorCodes {
     }
 
     public static final int UNKNOWN_ERROR = 1000;
+    public static final int CODE_BREAK = 1001;
 }
