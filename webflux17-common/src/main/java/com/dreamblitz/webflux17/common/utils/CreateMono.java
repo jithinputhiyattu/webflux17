@@ -26,7 +26,6 @@ public class CreateMono {
         });
     }
 
-
     public Mono<Integer> createMonoUsingDefer() {
         return Mono.defer(()-> Mono.just(value.incrementAndGet()));
     }

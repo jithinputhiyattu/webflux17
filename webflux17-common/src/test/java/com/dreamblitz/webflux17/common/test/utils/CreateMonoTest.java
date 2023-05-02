@@ -4,6 +4,7 @@ import com.dreamblitz.webflux17.common.utils.CreateMono;
 import org.junit.jupiter.api.*;
 import org.mockito.InjectMocks;
 import org.mockito.MockitoAnnotations;
+import org.springframework.util.Assert;
 import reactor.test.StepVerifier;
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
@@ -52,6 +53,13 @@ public class CreateMonoTest {
                 .assertNext(intVal -> Assertions.assertEquals(1, intVal)).verifyComplete();
     }
 
+    @Test
+    public void doOnNextTest() {
+        createMono.createMonoUsingDefer(); // 1
+        StepVerifier.create(createMono.createMonoUsingDefer()
+            .doOnNext(i -> Assertions.assertEquals(1, i)))
+                .assertNext(intVal -> Assertions.assertEquals(1, intVal)).verifyComplete();
+    }
 
     @Test
     public void shouldReturn1SinceFromSupplierIsLazy() {
