@@ -1,4 +1,4 @@
-package com.dreamblitz.webflux17.common;
+package com.dreamblitz.webflux17.common.utils;
 
 import org.springframework.stereotype.Component;
 

@@ -1,6 +1,6 @@
-package com.dreamblitz.webflux17.common.test;
+package com.dreamblitz.webflux17.common.test.utils;
 
-import com.dreamblitz.webflux17.common.InfiniteStream;
+import com.dreamblitz.webflux17.common.utils.InfiniteStream;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
@@ -22,6 +22,8 @@ public class InfiniteStreamTest {
 
     @Test
     public void shouldReturnSumOf10RandomNumbers(){
+
+
       int value = infiniteStream.infiniteIntStream().limit(10).reduce(0, (a, b)-> a+b);
       Assertions.assertEquals(true, value > 1000);
     }
